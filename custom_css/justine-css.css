@@ -1,0 +1,41 @@
+    .center {
+        margin-top: 90px;
+        margin-left: 280px;
+        margin-right: 35px;
+    }
+    
+    .dt-button.buttons-print {
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        border-radius: 4px;
+        background-color: #00887A;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        
+    }
+    
+    .dt-button.buttons-print:hover {
+        color: white;
+        background-color: #00564D;
+    }
+    
+    .btn.btn-default {
+        color: white;
+        border: none;
+        background-color: #00887A;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;        
+    }    
+    
+    .btn.btn-default:hover {
+        color: white;
+        background-color: #00564D;
+    }
+    
+    .cl {
+        background-color: #00887A;
+    }

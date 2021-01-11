@@ -1,0 +1,78 @@
+
+.navbar-default {
+    background-color: transparent;
+    border-style: none;
+    width: 100%;
+    border-radius: none;
+
+}
+.dropdown-menu{
+    background-color: #FFD343;
+    color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    
+    border-bottom: 2px solid  #FFD343;
+    color: white;
+} 
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover {
+    background-color: transparent;
+    border-bottom: 2px solid  #FFD343;
+    color: white;
+}
+
+
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.row {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.title{
+    background-color: transparent;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    font-size: 30px;
+    font-family: Arial;
+    margin: 0px;
+}
+.panel-default .panel-heading{
+ background-color: rgb(255,189,0);
+ font-size: 20px;
+ color: black;
+}
+textarea {
+    resize: none;
+    width: 100%;
+    height: 100%;
+}
+#heading {
+    top: 5px;
+    font-size: 30px;
+}
+#action {
+    float: right;
+    margin-right: 30px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #29292A;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #292929;
+
+}
+
+.icon-bar {color: white;}
+.navbar-nav > li > a{
+    padding-top: 10px;
+}

@@ -1,0 +1,149 @@
+		.dt-button {
+			padding: 5px;
+			margin: 10px;
+			width: 100px; 
+			border-radius: 5px;
+		}
+		.center {
+			margin-left: 250px;
+			width: 100%;
+			padding: 10%;
+		
+		}
+		.title {
+			background-color: #00897b;		/*#00897b, #00564d, #282828, #363636, #969696*/
+			color: white;
+			padding: 5px 10px 5px 10px;
+			font-size: 32px;
+			font-family: Times New Roman;
+			margin: 0px;
+		}
+
+		.navbar-default {
+			background-color: #00897b;
+		}
+		.navbar-default .navbar-brand{
+			color: white;
+		}
+		.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+			color: black;
+		}
+		.navbar-default .navbar-nav > li > a {
+			color: white;
+		}
+		
+		.wrapper {
+			  display: flex;
+			  align-items: stretch;
+			}
+
+		#sidebar {
+		  min-width: 250px;
+		  max-width: 250px;
+		  background: #00564d;
+		  color: #fff;
+		  padding-top: 50px;
+		  position: fixed;
+		  height: 100%;
+
+		}
+
+		#sidebar a,
+		#sidebar a:hover,
+		#sidebar a:focus {
+		  color: inherit;
+		}
+
+		#sidebar.active {
+		  margin-left: -250px;
+		}
+
+		#sidebar .sidebar-header {
+		  padding: 20px;
+		  background: #00564d;
+		}
+
+		#sidebar ul.components {
+		  padding: 20px 0;
+		  border-bottom: 1px solid #00564d;
+		}
+
+		#sidebar ul p {
+		  color: #fff;
+		  padding: 10px;
+		}
+
+		#sidebar ul li a {
+		  padding: 10px;
+		  font-size: 1.1em;
+		  display: block;
+
+		}
+
+		#sidebar ul li a:hover {
+		  color:#00564d;
+		  background: #fff;
+		}
+
+		#sidebar ul li.active > a,
+		a[aria-expanded="true"] {
+		  color: #fff;
+		  background: #00564d;
+		}
+
+		a[data-toggle="collapse"] {
+		  position: relative;
+		}
+
+		a[aria-expanded="false"]::before,
+		a[aria-expanded="true"]::before {
+		  content: '\e259';
+		  display: block;
+		  position: absolute;
+		  right: 20px;
+		  font-family: 'Glyphicons Halflings';
+		  font-size: 0.6em;
+		}
+
+		a[aria-expanded="true"]::before {
+		  content: '\e260';
+		}
+
+		ul ul a {
+		  font-size: 0.9em !important;
+		  padding-left: 30px !important;
+		  background: #00564d;
+		}
+
+		ul.CTAs {
+		  padding: 20px;
+		}
+
+		ul.CTAs a {
+		  text-align: center;
+		  font-size: 0.9em !important;
+		  display: block;
+		  border-radius: 5px;
+		  margin-bottom: 5px;
+		}
+
+		a.download {
+		  background: #fff;
+		  color: #00564d;
+		}
+
+		a.article,
+		a.article:hover {
+		  background: #00897b !important;
+		  color: #fff !important;
+		}
+
+		#content {
+		  padding: 20px;
+		  min-height: 100vh;
+		  transition: all 0.3s;
+		}
+
+		#action {
+    		float: right;
+		}

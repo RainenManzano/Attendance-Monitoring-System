@@ -1,0 +1,14 @@
+h2, h4 {
+    color: white;
+    
+}
+
+h2 {
+    margin-top: 6%;
+}
+body {
+	background-image: url(../assets/2.jpg); 
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: black;
+}

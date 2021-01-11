@@ -1,0 +1,39 @@
+body {
+        background-image: url(1.jpg); 
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: black;
+        }
+        
+
+.container {margin-top: 10%;}
+        
+        .form-control {
+            border-style: none;
+        }
+        
+        .btn_style {
+            background-color: #00897B;
+            color: black    ;
+            border-style: none;
+            padding: 16px;
+            width: 100%;
+            border-radius: 8px;
+            font-family: Arial;
+            font-size: 18px;
+            -webkit-transition-duration: 0.3s; 
+            transition-duration: 0.3s            
+        }
+        
+        .btn_style:hover {
+            background-color: #00564D;
+            color: white;
+        }
+                
+         .input-group-addon {
+            background-color: #00564D;
+             border-style: none;
+            color: black;
+        }
+        
+        .glyphicon-user, .glyphicon-lock {color: white;}
